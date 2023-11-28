@@ -13,3 +13,11 @@ Consigli del giorno
 1. Scriviamo sempre in italiano i passaggi che vogliamo fare
 2. Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.
 Buon lavoro e buon divertimento!
+
+<!-- esercizio 1 -->
+Problema: la parola inserita è palindroma?
+1- creare un prompt per far inserire una parola all'utente
+2- definire una funzione 
+3- mettere in ordine dall'ultima alla prima, le lettere della parola inserita
+3.1- ? se la parola inserita è uguale alla parola reverse, allora questa parola è palindroma 
+3.2- : Questa parola NON è palindroma
