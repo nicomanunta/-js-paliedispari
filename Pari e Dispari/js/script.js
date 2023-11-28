@@ -7,10 +7,19 @@ function randomNumber(){
 let random_num = randomNumber()
 console.log(random_num)
 
-function somma(){
-    let addizione = num + random_num
-    console.log(addizione)
+function somma(cifra1, cifra2){
+    let risultato = cifra1 + cifra2 
+    console.log(risultato)
+    return risultato 
+
     
+    
+}
+let addizione = somma(num, random_num)
+
+function checkVittoria(pari_dispari, addizione){
+
+    pari_dispari = pari_dispari.toLowerCase()
     if(pari_dispari == "pari" && addizione%2 == 0){
         console.log("Hai vinto")
     }
@@ -24,6 +33,8 @@ function somma(){
         console.log("Hai vinto")
     }
 }
-somma()
+checkVittoria(pari_dispari, addizione)
+
+
 
 
